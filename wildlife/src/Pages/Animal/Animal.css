@@ -1,0 +1,30 @@
+.search{
+    width: 100px;
+    height: 35px;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+.input-div input{
+    width: 400px;
+    height: 35px;
+    background-color: rgb(20, 15, 42);
+    color: white;
+    font-size: 20px;
+}
+
+.input-div{
+    margin-bottom: 100px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.animal-div{
+    background-color: coral;
+}

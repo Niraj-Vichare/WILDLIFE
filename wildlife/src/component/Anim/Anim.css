@@ -1,0 +1,28 @@
+.kingdom{
+    font-style: italic;
+    text-align: center;
+}
+.anim-div .name{
+    color: black;
+    font-size: 25px;
+}
+
+.anim-div{
+    margin-bottom: 20px;
+}
+.physical span,.behavior span{
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.physical h2,.behavior h2{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.behavior{
+    margin-right: 100px;
+    text-align: end;
+    /* text-align: center; */
+}

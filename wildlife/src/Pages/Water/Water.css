@@ -1,0 +1,31 @@
+.figure-style{
+    background-color: rgb(49, 104, 235);
+}
+
+.main-div{
+    display: block;
+    background-color: rgb(2, 23, 249);
+    color: white;
+    border: 5px solid grey;
+}
+
+@media screen and (max-width:960px){
+    .main-div{
+        display: block; 
+    }
+    
+}
+.four h1{
+    font-size: 30px;
+}
+.four h2{
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info h1{
+    text-transform: uppercase;
+}
+.info span{
+    font-weight: 500;
+}

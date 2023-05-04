@@ -1,0 +1,74 @@
+
+.main-div-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-style:hover{
+    box-shadow: 12px 12px 2px 1px rgb(242, 236, 55);
+}
+.form-style{
+    margin-top: 100px;
+    display: grid;
+    text-align: center;
+    border: 2px solid rgb(11, 11, 188);
+    width: 600px;
+    height: 600px;
+    border-radius: 15px;
+    margin-left: 100px;
+    box-shadow: 12px 12px 2px 1px rgba(1, 1, 70, 0.2);
+    margin-bottom: 100px;
+    transition: .5s;
+
+}
+
+@media screen and (max-width:960px){
+    .form-style{
+        background-color: hsl(341, 88%, 68%);
+        margin-left: 10px;
+        width: 500px;
+    }
+    .input{
+        width: 40px;
+    }
+}
+
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.label-style{
+    font-size: 24px;
+}  
+ 
+.input{
+    width: 400px;
+    height: 30px;
+    font-size: 24px;
+    border-radius: 5px; 
+    border: 1px solid white;  
+    box-shadow: 12px 12px 2px 1px rgba(210, 44, 44, 0.601);
+    background-color: rgb(14, 11, 44);
+    text-align: center;
+    color: white;
+}
+
+
+
+.button-style:hover{
+    
+    box-shadow:  0px 12px 2px 1px rgb(42, 42, 155);
+    border: 2px;
+}
+
+.button-style{
+    width: 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    border-radius: 10px;
+    height: 35px;
+    background-color: green;
+    transition: .5s;
+
+}

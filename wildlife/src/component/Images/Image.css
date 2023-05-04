@@ -1,0 +1,22 @@
+.image-resizing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.h1-type{
+    position:absolute;
+    color: aliceblue;
+    font-size: 100px;
+}
+
+@media screen and (max-width:960px)
+{
+    .img-style{
+        width: 300px;
+    }
+    .h1-type{
+        font-size: 28px;
+    }   
+}

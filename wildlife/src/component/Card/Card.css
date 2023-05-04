@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+.cards__container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0;
+  transition: 1s;
+}
+
+.cards__items {
+  margin-bottom: 30px;
+}
+
+.cards__item__link:hover {
+  box-shadow: 0px 0px 8px 0px rgba(246, 73, 43, 0.94);
+}
+.cards__item {
+  display: flex;
+  border-radius: 10px;
+  height: 500px;
+  width: 500px;
+  margin: 10px;
+}
+.cards__item__link {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-flow: column;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  border: 2px solid rgb(15, 15, 122);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 -1px 10px rgb(28, 35, 33));
+  border-radius: 15px;
+  text-decoration: none;
+  transition: 0.8s;
+}
+
+.cards__item__pic-wrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cards__item__info {
+  bottom: 10px;
+  padding-left: 20px;
+}
+
+.cards__item__text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: hsl(0, 0%, 100%);
+  font-weight: 100;
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cards__items {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cards__item {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .cards__item {
+    width: 450px;
+  }
+}
+
